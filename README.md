@@ -1,12 +1,9 @@
-# simple http proxy
-
-A simple http proxy, with some basic feature
-
-* Basic auth support
-* tls support
+A simple http proxy server, support some basic feature:
+* HTTP Basic authorization
+* TLS
 
 ```
-Usage of ./simple-http-proxy:
+usage of ./simple-http-proxy:
   -auth-password string
         http basic auth password
   -auth-username string
@@ -21,4 +18,5 @@ Usage of ./simple-http-proxy:
         https cert private key
   -port string
         http port (default "1080")
+
 ```
